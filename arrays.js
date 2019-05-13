@@ -5,15 +5,15 @@ function addElementToBeginningOfArray(array, element){
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element){
-  return chocolateBars.unshift(candyString);
+  return array.unshift(element);
 }
 
-function addElementToEndOfArray(chocolateBars, candyString){
-  return [...chocolateBars, candyString];
+function addElementToEndOfArray(array, element){
+  return [...array, element];
 }
 
-function destructivelyAddElementToEndOfArray(chocolateBars, candyString){
-  return chocolateBars.push(candyString);
+function destructivelyAddElementToEndOfArray(array, element){
+  return array.push(element);
 }
 function accessElementInArray(array, index){
   return array[index];
